@@ -1,0 +1,58 @@
+c:\users\administrator\documents\visual studio 2013\Projects\WpfApplication1\WpfApplication1\bin\Debug\WpfApplication1.exe.config
+c:\users\administrator\documents\visual studio 2013\Projects\WpfApplication1\WpfApplication1\bin\Debug\WpfApplication1.exe
+c:\users\administrator\documents\visual studio 2013\Projects\WpfApplication1\WpfApplication1\bin\Debug\WpfApplication1.pdb
+c:\users\administrator\documents\visual studio 2013\Projects\WpfApplication1\WpfApplication1\obj\Debug\WpfApplication1.csprojResolveAssemblyReference.cache
+c:\users\administrator\documents\visual studio 2013\Projects\WpfApplication1\WpfApplication1\obj\Debug\MainWindow.baml
+c:\users\administrator\documents\visual studio 2013\Projects\WpfApplication1\WpfApplication1\obj\Debug\MainWindow.g.cs
+c:\users\administrator\documents\visual studio 2013\Projects\WpfApplication1\WpfApplication1\obj\Debug\App.g.cs
+c:\users\administrator\documents\visual studio 2013\Projects\WpfApplication1\WpfApplication1\obj\Debug\WpfApplication1_MarkupCompile.cache
+c:\users\administrator\documents\visual studio 2013\Projects\WpfApplication1\WpfApplication1\obj\Debug\WpfApplication1.g.resources
+c:\users\administrator\documents\visual studio 2013\Projects\WpfApplication1\WpfApplication1\obj\Debug\WpfApplication1.Properties.Resources.resources
+c:\users\administrator\documents\visual studio 2013\Projects\WpfApplication1\WpfApplication1\obj\Debug\WpfApplication1.csproj.GenerateResource.Cache
+c:\users\administrator\documents\visual studio 2013\Projects\WpfApplication1\WpfApplication1\obj\Debug\WpfApplication1.exe
+c:\users\administrator\documents\visual studio 2013\Projects\WpfApplication1\WpfApplication1\obj\Debug\WpfApplication1.pdb
+C:\Users\Administrator\Desktop\WpfApplication1\WpfApplication1\bin\Debug\video.mp4
+C:\Users\Administrator\Desktop\WpfApplication1\WpfApplication1\bin\Debug\WpfApplication1.exe.config
+C:\Users\Administrator\Desktop\WpfApplication1\WpfApplication1\bin\Debug\WpfApplication1.exe
+C:\Users\Administrator\Desktop\WpfApplication1\WpfApplication1\bin\Debug\WpfApplication1.pdb
+C:\Users\Administrator\Desktop\WpfApplication1\WpfApplication1\obj\Debug\MainWindow.baml
+C:\Users\Administrator\Desktop\WpfApplication1\WpfApplication1\obj\Debug\MainWindow.g.cs
+C:\Users\Administrator\Desktop\WpfApplication1\WpfApplication1\obj\Debug\App.g.cs
+C:\Users\Administrator\Desktop\WpfApplication1\WpfApplication1\obj\Debug\WpfApplication1_Content.g.cs
+C:\Users\Administrator\Desktop\WpfApplication1\WpfApplication1\obj\Debug\WpfApplication1_MarkupCompile.cache
+C:\Users\Administrator\Desktop\WpfApplication1\WpfApplication1\obj\Debug\WpfApplication1.g.resources
+C:\Users\Administrator\Desktop\WpfApplication1\WpfApplication1\obj\Debug\WpfApplication1.Properties.Resources.resources
+C:\Users\Administrator\Desktop\WpfApplication1\WpfApplication1\obj\Debug\WpfApplication1.csproj.GenerateResource.Cache
+C:\Users\Administrator\Desktop\WpfApplication1\WpfApplication1\obj\Debug\WpfApplication1.exe
+C:\Users\Administrator\Desktop\WpfApplication1\WpfApplication1\obj\Debug\WpfApplication1.pdb
+C:\Users\Administrator\Desktop\wpf全屏播放视频\WpfApplication1\bin\Debug\WpfApplication1.exe.config
+C:\Users\Administrator\Desktop\wpf全屏播放视频\WpfApplication1\obj\Debug\WpfApplication1.exe
+C:\Users\Administrator\Desktop\wpf全屏播放视频\WpfApplication1\obj\Debug\WpfApplication1.pdb
+\\Mac\Home\Downloads\wpf全屏播放视频\wpf全屏播放视频\WpfApplication1\bin\Debug\WpfApplication1.exe.config
+\\Mac\Home\Downloads\wpf全屏播放视频\wpf全屏播放视频\WpfApplication1\bin\Debug\WpfApplication1.exe
+\\Mac\Home\Downloads\wpf全屏播放视频\wpf全屏播放视频\WpfApplication1\bin\Debug\WpfApplication1.pdb
+\\Mac\Home\Downloads\wpf全屏播放视频\wpf全屏播放视频\WpfApplication1\obj\Debug\WpfApplication1.csprojAssemblyReference.cache
+\\Mac\Home\Downloads\wpf全屏播放视频\wpf全屏播放视频\WpfApplication1\obj\Debug\MainWindow.baml
+\\Mac\Home\Downloads\wpf全屏播放视频\wpf全屏播放视频\WpfApplication1\obj\Debug\MainWindow.g.cs
+\\Mac\Home\Downloads\wpf全屏播放视频\wpf全屏播放视频\WpfApplication1\obj\Debug\App.g.cs
+\\Mac\Home\Downloads\wpf全屏播放视频\wpf全屏播放视频\WpfApplication1\obj\Debug\WpfApplication1_MarkupCompile.cache
+\\Mac\Home\Downloads\wpf全屏播放视频\wpf全屏播放视频\WpfApplication1\obj\Debug\WpfApplication1.g.resources
+\\Mac\Home\Downloads\wpf全屏播放视频\wpf全屏播放视频\WpfApplication1\obj\Debug\WpfApplication1.Properties.Resources.resources
+\\Mac\Home\Downloads\wpf全屏播放视频\wpf全屏播放视频\WpfApplication1\obj\Debug\WpfApplication1.csproj.GenerateResource.cache
+\\Mac\Home\Downloads\wpf全屏播放视频\wpf全屏播放视频\WpfApplication1\obj\Debug\WpfApplication1.csproj.CoreCompileInputs.cache
+\\Mac\Home\Downloads\wpf全屏播放视频\wpf全屏播放视频\WpfApplication1\obj\Debug\WpfApplication1.exe
+\\Mac\Home\Downloads\wpf全屏播放视频\wpf全屏播放视频\WpfApplication1\obj\Debug\WpfApplication1.pdb
+C:\Users\kang.pang\source\repos\jFPlayer\WpfApplication1\bin\Debug\WpfApplication1.exe.config
+C:\Users\kang.pang\source\repos\jFPlayer\WpfApplication1\bin\Debug\WpfApplication1.exe
+C:\Users\kang.pang\source\repos\jFPlayer\WpfApplication1\bin\Debug\WpfApplication1.pdb
+C:\Users\kang.pang\source\repos\jFPlayer\WpfApplication1\obj\Debug\WpfApplication1.csprojAssemblyReference.cache
+C:\Users\kang.pang\source\repos\jFPlayer\WpfApplication1\obj\Debug\MainWindow.baml
+C:\Users\kang.pang\source\repos\jFPlayer\WpfApplication1\obj\Debug\MainWindow.g.cs
+C:\Users\kang.pang\source\repos\jFPlayer\WpfApplication1\obj\Debug\App.g.cs
+C:\Users\kang.pang\source\repos\jFPlayer\WpfApplication1\obj\Debug\WpfApplication1_MarkupCompile.cache
+C:\Users\kang.pang\source\repos\jFPlayer\WpfApplication1\obj\Debug\WpfApplication1.g.resources
+C:\Users\kang.pang\source\repos\jFPlayer\WpfApplication1\obj\Debug\WpfApplication1.Properties.Resources.resources
+C:\Users\kang.pang\source\repos\jFPlayer\WpfApplication1\obj\Debug\WpfApplication1.csproj.GenerateResource.cache
+C:\Users\kang.pang\source\repos\jFPlayer\WpfApplication1\obj\Debug\WpfApplication1.csproj.CoreCompileInputs.cache
+C:\Users\kang.pang\source\repos\jFPlayer\WpfApplication1\obj\Debug\WpfApplication1.exe
+C:\Users\kang.pang\source\repos\jFPlayer\WpfApplication1\obj\Debug\WpfApplication1.pdb
