@@ -12,6 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using System.Windows.Threading;
 
 namespace WpfApplication1
 {
@@ -21,6 +22,7 @@ namespace WpfApplication1
     public partial class MainWindow : Window
     {
         MediaElement myPlayer = new MediaElement();
+        DispatcherTimer timer = new DispatcherTimer();
 
         public MainWindow()
         {
@@ -29,12 +31,26 @@ namespace WpfApplication1
             myPlayer.Margin = new Thickness(1, 1, 1, 1);
             myPlayer.Width = ActualWidth;
             myPlayer.Height = ActualHeight;
+            timer.Interval = TimeSpan.FromMilliseconds(100);
+            timer.Tick += Timer_Tick;
 
             myPlayer.LoadedBehavior = MediaState.Manual;
             var mp4_path = AppDomain.CurrentDomain.BaseDirectory + "video.mp4";
             myPlayer.Source = new Uri(mp4_path, UriKind.RelativeOrAbsolute);
 
             (Content as Grid).Children.Add(myPlayer);
+        }
+
+        private void Timer_Tick(object sender, EventArgs e)
+        {
+            if(myPlayer.Position.Seconds == 5)
+            {
+                MessageBox.Show("5");
+            }
+            if (myPlayer.Position.Seconds == 10)
+            {
+                MessageBox.Show("10");
+            }
         }
 
         void myContent_MouseDoubleClick(object sender, MouseButtonEventArgs e)
@@ -47,6 +63,7 @@ namespace WpfApplication1
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
+            timer.Start();
             myPlayer.Play();
         }
 
