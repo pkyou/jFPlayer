@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO.Ports;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -23,11 +24,12 @@ namespace WpfApplication1
     {
         MediaElement myPlayer = new MediaElement();
         DispatcherTimer timer = new DispatcherTimer();
+        Dictionary<int, byte[]> keyValuePairs = new Dictionary<int, byte[]>();
 
         public MainWindow()
         {
             InitializeComponent();
-
+            InitializeKeyValuePairs();
             myPlayer.Margin = new Thickness(1, 1, 1, 1);
             myPlayer.Width = ActualWidth;
             myPlayer.Height = ActualHeight;
@@ -41,16 +43,51 @@ namespace WpfApplication1
             (Content as Grid).Children.Add(myPlayer);
         }
 
+        private void InitializeKeyValuePairs()
+        {
+            keyValuePairs[5] = new byte[] { 0x01, 0x05 };
+
+            keyValuePairs[10] = new byte[] { 0x02, 0x10 };
+        }
+
         private void Timer_Tick(object sender, EventArgs e)
         {
-            if(myPlayer.Position.Seconds == 5)
+            if(myPlayer.Position.TotalSeconds < 6 && myPlayer.Position.TotalSeconds > 4)
             {
-                MessageBox.Show("5");
+                SendMessage(5);
             }
-            if (myPlayer.Position.Seconds == 10)
+            if (myPlayer.Position.TotalSeconds < 11 && myPlayer.Position.TotalSeconds > 9)
             {
-                MessageBox.Show("10");
+                SendMessage(10);
             }
+        }
+
+        private void SendMessage(int symbol)
+        {
+            if (!keyValuePairs.Keys.Contains(symbol))
+            {
+                return;
+            }
+
+            byte[] data = keyValuePairs[symbol];
+            SerialPort port1 = new SerialPort()
+            {
+                PortName = "COM1",
+                BaudRate = 115200,
+                Parity = Parity.None,
+                DataBits = 8,
+                StopBits = StopBits.One
+            };
+            
+            SerialPortManage manage = new SerialPortManage();
+
+            if (manage.OpenPort(port1))
+            {
+                manage.SendDataPacket(data);
+
+                manage.ClosePort();
+            }
+            keyValuePairs.Remove(symbol);
         }
 
         void myContent_MouseDoubleClick(object sender, MouseButtonEventArgs e)
