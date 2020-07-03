@@ -11,8 +11,8 @@
 ### 4.1 生成ssh key
 - 打开powershell
 - 运行命令 `ssh-keygen -t rsa -C "your_email@example.com"` 邮箱换成自己的
-### 4.1 添加 ssh key 公钥
-- powershell 中运行命令 `type ~/.ssh/id_rsa.pub` 可以查看生成的公钥，将 公约添加到github仓库（我来添加）
+### 4.1 添加 ssh key 公钥到 github
+- powershell 中运行命令 `type ~/.ssh/id_rsa.pub` 可以查看生成的公钥，将公钥添加到github仓库（我来添加）
 ### 4.2 下载代码
 - Powershell中cd到任意文件夹，该文件夹下将存放源代码
 - 执行命令 `git clone git@github.com:pkyou/jFPlayer.git` 后，会新建名为`jFPlayer`的文件夹，文件夹内即为源代码
